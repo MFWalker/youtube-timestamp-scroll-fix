@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Youtube Timestamp Scroll Fix",
+    "version": "1.0",
+    "description": "Prevent page scroll when Shift + Clicking YouTube timestamps in comments.",
+    "content_scripts": [
+        {
+            "matches": ["*://www.youtube.com/*"],
+            "js": ["content.js"],
+            "run_at": "document_idle"
+        }
+    ],
+    "permissions": []
+}
