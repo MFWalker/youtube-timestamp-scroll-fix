@@ -1,7 +1,7 @@
 # YouTube Timestamp Scroll Fix
 A personal Chromium extension to prevent auto-scrolling to the top of the page when Shift+clicking on YouTube timestamps in comments.
 
-## How it works
+## How it Works
 When you hold Shift while clicking a timestamp, this extension:
 - Prevents the default scroll behavior
 - Seeks the video to the correct timestamp
